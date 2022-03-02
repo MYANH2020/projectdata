@@ -15,3 +15,14 @@ An echo client gets a message from a user and sends the message to the connected
 If a user wants to stop the client program, the user types “end” to the client. The client sends the message to the reverse echo server, and waits the message “dne” from the server. If the client gets the message “dne”, it terminates itself with displaying “dne” message.
 The echo client is started by the following command line:
 ![image](https://user-images.githubusercontent.com/63695763/156285992-effef41f-3bbf-42e1-95e2-254247bf968a.png)
+command to run:
+use python 2.xxx
+command: python server.py
+python client.py 
+Message from Client: good
+Response from Server: doog
+Message from Client: hello
+Response from Server: olleh
+Message from Client: end
+Response from Server: dne
+
